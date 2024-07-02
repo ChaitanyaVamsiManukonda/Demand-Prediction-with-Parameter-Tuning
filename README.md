@@ -1,2 +1,4 @@
 # Demand-Prediction-with-Parameter-Tuning
-''Demand Prediction with Parameter Tuning, Programming for Business, April 2023''
+Programming for Business, April 2023
+
+This project involves leveraging Python’s data analysis libraries, including pandas and numpy, along with machine learning techniques using scikit-learn, to predict weekly grocery sales. Utilizing a dataset from a grocery store, the model preprocesses data by converting dates to Unix timestamps, removing duplicates, and handling missing values. It employs a Random Forest Regressor, systematically tuning parameters such as the number of estimators, maximum tree depth, and maximum leaf nodes to optimize predictions. The effectiveness of the model is assessed through R2 score and Root Mean Squared Error (RMSE), with a grid search approach to fine-tune the parameters for best performance. This project showcases practical application of machine learning to solve real-world problems by improving accuracy and reliability in demand forecasting.
